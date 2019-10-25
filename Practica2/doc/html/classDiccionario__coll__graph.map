@@ -1,0 +1,4 @@
+<map id="Diccionario" name="Diccionario">
+<area shape="rect" id="node2" href="$structCelda.html" title="Struct celda para implementar la lista enlazada de términos en la clase diccionario. " alt="" coords="21,95,77,121"/>
+<area shape="rect" id="node3" href="$classTermino.html" title="T.D.A. Termino. " alt="" coords="14,5,83,32"/>
+</map>

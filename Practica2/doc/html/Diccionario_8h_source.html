@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TDA Diccionario: Fichero Fuente include/Diccionario.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TDA Diccionario
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Diccionario.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Diccionario_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef DICCIONARIO </span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define DICCIONARIO</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Termino_8h.html">Termino.h</a>&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structCelda.html">   23</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structCelda.html">Celda</a>{</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="structCelda.html#afe3e66825a57e1b70d6379bf36396211">   24</a></span>&#160;    <a class="code" href="classTermino.html">Termino</a> <a class="code" href="structCelda.html#afe3e66825a57e1b70d6379bf36396211">dato</a>; </div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structCelda.html#a52ca55f235314045dc0dd907bb90f58b">   25</a></span>&#160;    <a class="code" href="structCelda.html">Celda</a> * <a class="code" href="structCelda.html#a52ca55f235314045dc0dd907bb90f58b">sig</a>; </div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;};</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classDiccionario.html">   52</a></span>&#160;<span class="keyword">class </span><a class="code" href="classDiccionario.html">Diccionario</a>{</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="classDiccionario.html#a45e7eb0e7339430b414ce432fbacffa1">   88</a></span>&#160;        <a class="code" href="structCelda.html">Celda</a> * <a class="code" href="classDiccionario.html#a45e7eb0e7339430b414ce432fbacffa1">primero</a>; </div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <a class="code" href="classDiccionario.html">Diccionario</a> ();</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <a class="code" href="classDiccionario.html">Diccionario</a> (<span class="keyword">const</span> <a class="code" href="classTermino.html">Termino</a> &amp; terminoDado);</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <a class="code" href="classDiccionario.html">Diccionario</a> (<span class="keyword">const</span> <a class="code" href="classDiccionario.html">Diccionario</a> &amp; aCopiar);</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <a class="code" href="classDiccionario.html">Diccionario</a> &amp; operator = (<span class="keyword">const</span> <a class="code" href="classDiccionario.html">Diccionario</a> &amp; aCopiar);</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordtype">string</span> getDefiniciones (<span class="keywordtype">string</span> palabraABuscar) <span class="keyword">const</span>;</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <a class="code" href="classTermino.html">Termino</a> * getTerminos () <span class="keyword">const</span>;</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordtype">int</span> getNumTerminos () <span class="keyword">const</span>;</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordtype">void</span> aniadirTermino (<a class="code" href="classTermino.html">Termino</a> aInsertar);</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordtype">void</span> eliminarTermino (<span class="keywordtype">string</span> aEliminar);</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keyword">friend</span> ostream &amp; operator &lt;&lt; (ostream &amp; salida, <span class="keyword">const</span> <a class="code" href="classDiccionario.html">Diccionario</a> &amp; aImprimir);</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keyword">friend</span> istream &amp; operator &gt;&gt; (istream &amp; entrada, <a class="code" href="classDiccionario.html">Diccionario</a> &amp; aModificar);</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <a class="code" href="classDiccionario.html">Diccionario</a> filtrarPorIntervalo (<span class="keywordtype">char</span> lower, <span class="keywordtype">char</span> upper) <span class="keyword">const</span>;</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <a class="code" href="classDiccionario.html">Diccionario</a> filtrarPorPalabraClave (<span class="keywordtype">string</span> palabraClave) <span class="keyword">const</span>;</div><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        <span class="keywordtype">int</span> getNumTotalDefiniciones () <span class="keyword">const</span>;</div><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <span class="keywordtype">int</span> getMaxDefinicionesPorPalabra () <span class="keyword">const</span>;</div><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;</div><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="keywordtype">float</span> getPromedioDefinicionesPorPalabra() <span class="keyword">const</span>;</div><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        ~<a class="code" href="classDiccionario.html">Diccionario</a>();</div><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordtype">void</span> copiarDatos (<span class="keyword">const</span> <a class="code" href="classDiccionario.html">Diccionario</a> &amp; aCopiar);</div><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <span class="keywordtype">void</span> liberarMemoria();</div><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;};</div><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="structCelda_html_a52ca55f235314045dc0dd907bb90f58b"><div class="ttname"><a href="structCelda.html#a52ca55f235314045dc0dd907bb90f58b">Celda::sig</a></div><div class="ttdeci">Celda * sig</div><div class="ttdef"><b>Definition:</b> Diccionario.h:25</div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classDiccionario_html_a45e7eb0e7339430b414ce432fbacffa1"><div class="ttname"><a href="classDiccionario.html#a45e7eb0e7339430b414ce432fbacffa1">Diccionario::primero</a></div><div class="ttdeci">Celda * primero</div><div class="ttdef"><b>Definition:</b> Diccionario.h:88</div></div>
+<div class="ttc" id="structCelda_html"><div class="ttname"><a href="structCelda.html">Celda</a></div><div class="ttdoc">Struct celda para implementar la lista enlazada de términos en la clase diccionario. </div><div class="ttdef"><b>Definition:</b> Diccionario.h:23</div></div>
+<div class="ttc" id="structCelda_html_afe3e66825a57e1b70d6379bf36396211"><div class="ttname"><a href="structCelda.html#afe3e66825a57e1b70d6379bf36396211">Celda::dato</a></div><div class="ttdeci">Termino dato</div><div class="ttdef"><b>Definition:</b> Diccionario.h:24</div></div>
+<div class="ttc" id="classTermino_html"><div class="ttname"><a href="classTermino.html">Termino</a></div><div class="ttdoc">T.D.A. Termino. </div><div class="ttdef"><b>Definition:</b> Termino.h:40</div></div>
+<div class="ttc" id="Termino_8h_html"><div class="ttname"><a href="Termino_8h.html">Termino.h</a></div><div class="ttdoc">Fichero cabecera del TDA Termino. </div></div>
+<div class="ttc" id="classDiccionario_html"><div class="ttname"><a href="classDiccionario.html">Diccionario</a></div><div class="ttdoc">T.D.A. Diccionario. </div><div class="ttdef"><b>Definition:</b> Diccionario.h:52</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>
