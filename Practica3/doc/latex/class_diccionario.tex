@@ -1,0 +1,181 @@
+\hypertarget{class_diccionario}{}\section{Diccionario Class Reference}
+\label{class_diccionario}\index{Diccionario@{Diccionario}}
+
+
+T.\+D.\+A \mbox{\hyperlink{class_diccionario}{Diccionario}} Una instancia {\itshape td} del tipo de datos abstracto {\ttfamily \mbox{\hyperlink{class_diccionario}{Diccionario}}} representa un conjunto de términos con sus definiciones asociadas.  
+
+
+
+
+{\ttfamily \#include $<$Diccionario.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_diccionario_aa0a2191ec706b256c35b5229cc197b15}{Diccionario}} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_diccionario_aef379e39fd3f807873185ada93bb35cb}{Diccionario}} (const \mbox{\hyperlink{class_v_d}{VD}}$<$ \mbox{\hyperlink{class_termino}{Termino}} $>$ \&mi\+Dic)
+\begin{DoxyCompactList}\small\item\em Constructor por defecto con parámetro. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_diccionario_a19cb60001ffd8a8224fedc1449b6e09c}{Diccionario}} (const \mbox{\hyperlink{class_diccionario}{Diccionario}} \&mi\+Dic)
+\item 
+const pair$<$ int, bool $>$ \mbox{\hyperlink{class_diccionario_a140c6445502d5d7db7fbc050695797cc}{esta\+Termino}} (const string \&pal)
+\item 
+const pair$<$ \mbox{\hyperlink{class_v_d}{VD}}$<$ string $>$, bool $>$ \& \mbox{\hyperlink{class_diccionario_a3807bac7b070101ce9748c5fc61f57dc}{get\+Definiciones}} (const string \&pal) const
+\item 
+const \mbox{\hyperlink{class_v_d}{VD}}$<$ \mbox{\hyperlink{class_termino}{Termino}} $>$ \& \mbox{\hyperlink{class_diccionario_a5cc88c4cf7fee49b715f31bea0c2abd3}{get\+Terminos}} () const
+\item 
+const int \mbox{\hyperlink{class_diccionario_a79a9b966438e99fc637e62673c121c14}{get\+Num\+Terminos}} () const
+\item 
+void \mbox{\hyperlink{class_diccionario_ab4cc0b335a2e048fa2920186af2fe349}{aniadir\+Termino}} (const \mbox{\hyperlink{class_termino}{Termino}} \&t)
+\item 
+bool \mbox{\hyperlink{class_diccionario_a805922dba5d9839770140b87ca93f758}{eliminar\+Termino}} (const \mbox{\hyperlink{class_termino}{Termino}} \&t)
+\item 
+const \mbox{\hyperlink{class_diccionario}{Diccionario}} \& \mbox{\hyperlink{class_diccionario_ad5e4f19a59c5b60c864b197a2792c26c}{filtrar\+Intervalo}} (const char inicio, const char fin) const
+\item 
+const \mbox{\hyperlink{class_diccionario}{Diccionario}} \& \mbox{\hyperlink{class_diccionario_a39a999223e0da328d10e518528830327}{filtrar\+Clave}} (const string clave) const
+\item 
+const int \& \mbox{\hyperlink{class_diccionario_a3c5554b8ec7dd6549d9ac0844510a49f}{get\+Num\+Definiciones}} () const
+\item 
+const int \& \mbox{\hyperlink{class_diccionario_ac37e5510381ead2192e66848e6e5f726}{get\+Max\+Definiciones}} () const
+\item 
+const double \& \mbox{\hyperlink{class_diccionario_afc533a9cf6311689b2b582a07ee81434}{get\+Promedio\+Definiciones}} () const
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_diccionario_a3d353aed1ab1b515fcf2be6172123b1e}{operator$<$$<$}} (ostream \&os, const \mbox{\hyperlink{class_diccionario}{Diccionario}} \&d)
+\item 
+istream \& \mbox{\hyperlink{class_diccionario_a37fecf9dd09405cc2cc91e81bf32cab0}{operator$>$$>$}} (istream \&is, \mbox{\hyperlink{class_diccionario}{Diccionario}} \&d)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+T.\+D.\+A \mbox{\hyperlink{class_diccionario}{Diccionario}} Una instancia {\itshape td} del tipo de datos abstracto {\ttfamily \mbox{\hyperlink{class_diccionario}{Diccionario}}} representa un conjunto de términos con sus definiciones asociadas. 
+
+Antonio Carlos Perea Parras \begin{DoxyDate}{Date}
+Octubre 2018 
+\end{DoxyDate}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_diccionario_aa0a2191ec706b256c35b5229cc197b15}\label{class_diccionario_aa0a2191ec706b256c35b5229cc197b15}} 
+\index{Diccionario@{Diccionario}!Diccionario@{Diccionario}}
+\index{Diccionario@{Diccionario}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{Diccionario()}{Diccionario()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Diccionario\+::\+Diccionario (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor por defecto. 
+
+\mbox{\Hypertarget{class_diccionario_aef379e39fd3f807873185ada93bb35cb}\label{class_diccionario_aef379e39fd3f807873185ada93bb35cb}} 
+\index{Diccionario@{Diccionario}!Diccionario@{Diccionario}}
+\index{Diccionario@{Diccionario}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{Diccionario()}{Diccionario()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Diccionario\+::\+Diccionario (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_v_d}{VD}}$<$ \mbox{\hyperlink{class_termino}{Termino}} $>$ \&}]{mi\+Dic }\end{DoxyParamCaption})}
+
+
+
+Constructor por defecto con parámetro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mi\+Dic} & conjunto de terminos a añadir al diccionario \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_diccionario_a19cb60001ffd8a8224fedc1449b6e09c}\label{class_diccionario_a19cb60001ffd8a8224fedc1449b6e09c}} 
+\index{Diccionario@{Diccionario}!Diccionario@{Diccionario}}
+\index{Diccionario@{Diccionario}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{Diccionario()}{Diccionario()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Diccionario\+::\+Diccionario (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_diccionario}{Diccionario}} \&}]{mi\+Dic }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_diccionario_ab4cc0b335a2e048fa2920186af2fe349}\label{class_diccionario_ab4cc0b335a2e048fa2920186af2fe349}} 
+\index{Diccionario@{Diccionario}!aniadir\+Termino@{aniadir\+Termino}}
+\index{aniadir\+Termino@{aniadir\+Termino}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{aniadir\+Termino()}{aniadirTermino()}}
+{\footnotesize\ttfamily void Diccionario\+::aniadir\+Termino (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_termino}{Termino}} \&}]{t }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_diccionario_a805922dba5d9839770140b87ca93f758}\label{class_diccionario_a805922dba5d9839770140b87ca93f758}} 
+\index{Diccionario@{Diccionario}!eliminar\+Termino@{eliminar\+Termino}}
+\index{eliminar\+Termino@{eliminar\+Termino}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{eliminar\+Termino()}{eliminarTermino()}}
+{\footnotesize\ttfamily bool Diccionario\+::eliminar\+Termino (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_termino}{Termino}} \&}]{t }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_diccionario_a140c6445502d5d7db7fbc050695797cc}\label{class_diccionario_a140c6445502d5d7db7fbc050695797cc}} 
+\index{Diccionario@{Diccionario}!esta\+Termino@{esta\+Termino}}
+\index{esta\+Termino@{esta\+Termino}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{esta\+Termino()}{estaTermino()}}
+{\footnotesize\ttfamily const pair$<$ int, bool $>$ Diccionario\+::esta\+Termino (\begin{DoxyParamCaption}\item[{const string \&}]{pal }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_diccionario_a39a999223e0da328d10e518528830327}\label{class_diccionario_a39a999223e0da328d10e518528830327}} 
+\index{Diccionario@{Diccionario}!filtrar\+Clave@{filtrar\+Clave}}
+\index{filtrar\+Clave@{filtrar\+Clave}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{filtrar\+Clave()}{filtrarClave()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_diccionario}{Diccionario}} \& Diccionario\+::filtrar\+Clave (\begin{DoxyParamCaption}\item[{const string}]{clave }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_diccionario_ad5e4f19a59c5b60c864b197a2792c26c}\label{class_diccionario_ad5e4f19a59c5b60c864b197a2792c26c}} 
+\index{Diccionario@{Diccionario}!filtrar\+Intervalo@{filtrar\+Intervalo}}
+\index{filtrar\+Intervalo@{filtrar\+Intervalo}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{filtrar\+Intervalo()}{filtrarIntervalo()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_diccionario}{Diccionario}} \& Diccionario\+::filtrar\+Intervalo (\begin{DoxyParamCaption}\item[{const char}]{inicio,  }\item[{const char}]{fin }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_diccionario_a3807bac7b070101ce9748c5fc61f57dc}\label{class_diccionario_a3807bac7b070101ce9748c5fc61f57dc}} 
+\index{Diccionario@{Diccionario}!get\+Definiciones@{get\+Definiciones}}
+\index{get\+Definiciones@{get\+Definiciones}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{get\+Definiciones()}{getDefiniciones()}}
+{\footnotesize\ttfamily const pair$<$ \mbox{\hyperlink{class_v_d}{VD}}$<$ string $>$, bool $>$ \& Diccionario\+::get\+Definiciones (\begin{DoxyParamCaption}\item[{const string \&}]{pal }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_diccionario_ac37e5510381ead2192e66848e6e5f726}\label{class_diccionario_ac37e5510381ead2192e66848e6e5f726}} 
+\index{Diccionario@{Diccionario}!get\+Max\+Definiciones@{get\+Max\+Definiciones}}
+\index{get\+Max\+Definiciones@{get\+Max\+Definiciones}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{get\+Max\+Definiciones()}{getMaxDefiniciones()}}
+{\footnotesize\ttfamily const int \& Diccionario\+::get\+Max\+Definiciones (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_diccionario_a3c5554b8ec7dd6549d9ac0844510a49f}\label{class_diccionario_a3c5554b8ec7dd6549d9ac0844510a49f}} 
+\index{Diccionario@{Diccionario}!get\+Num\+Definiciones@{get\+Num\+Definiciones}}
+\index{get\+Num\+Definiciones@{get\+Num\+Definiciones}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{get\+Num\+Definiciones()}{getNumDefiniciones()}}
+{\footnotesize\ttfamily const int \& Diccionario\+::get\+Num\+Definiciones (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_diccionario_a79a9b966438e99fc637e62673c121c14}\label{class_diccionario_a79a9b966438e99fc637e62673c121c14}} 
+\index{Diccionario@{Diccionario}!get\+Num\+Terminos@{get\+Num\+Terminos}}
+\index{get\+Num\+Terminos@{get\+Num\+Terminos}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{get\+Num\+Terminos()}{getNumTerminos()}}
+{\footnotesize\ttfamily const int Diccionario\+::get\+Num\+Terminos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_diccionario_afc533a9cf6311689b2b582a07ee81434}\label{class_diccionario_afc533a9cf6311689b2b582a07ee81434}} 
+\index{Diccionario@{Diccionario}!get\+Promedio\+Definiciones@{get\+Promedio\+Definiciones}}
+\index{get\+Promedio\+Definiciones@{get\+Promedio\+Definiciones}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{get\+Promedio\+Definiciones()}{getPromedioDefiniciones()}}
+{\footnotesize\ttfamily const double \& Diccionario\+::get\+Promedio\+Definiciones (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_diccionario_a5cc88c4cf7fee49b715f31bea0c2abd3}\label{class_diccionario_a5cc88c4cf7fee49b715f31bea0c2abd3}} 
+\index{Diccionario@{Diccionario}!get\+Terminos@{get\+Terminos}}
+\index{get\+Terminos@{get\+Terminos}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{get\+Terminos()}{getTerminos()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_v_d}{VD}}$<$ \mbox{\hyperlink{class_termino}{Termino}} $>$ \& Diccionario\+::get\+Terminos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_diccionario_a3d353aed1ab1b515fcf2be6172123b1e}\label{class_diccionario_a3d353aed1ab1b515fcf2be6172123b1e}} 
+\index{Diccionario@{Diccionario}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_diccionario}{Diccionario}} \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+\mbox{\Hypertarget{class_diccionario_a37fecf9dd09405cc2cc91e81bf32cab0}\label{class_diccionario_a37fecf9dd09405cc2cc91e81bf32cab0}} 
+\index{Diccionario@{Diccionario}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Diccionario@{Diccionario}}
+\subsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{is,  }\item[{\mbox{\hyperlink{class_diccionario}{Diccionario}} \&}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{_diccionario_8hpp}{Diccionario.\+hpp}}\item 
+src/\mbox{\hyperlink{_diccionario_8cpp}{Diccionario.\+cpp}}\end{DoxyCompactItemize}

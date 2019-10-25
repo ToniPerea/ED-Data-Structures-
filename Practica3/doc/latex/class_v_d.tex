@@ -1,0 +1,221 @@
+\hypertarget{class_v_d}{}\section{VD$<$ T $>$ Class Template Reference}
+\label{class_v_d}\index{V\+D$<$ T $>$@{V\+D$<$ T $>$}}
+
+
+T.\+D.\+A Vector dinámico Una instancia {\itshape c} del tipo de datos abstracto {\ttfamily \mbox{\hyperlink{class_v_d}{VD}}} es una estructura lineal de datos del tipo T ( clase plantilla) con las operaciones necesarias para trabajar con ellos.  
+
+
+
+
+{\ttfamily \#include $<$V\+D.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_v_d_a1ce73549d14f68caecaa593de3255c30}{VD}} (int tam=10)
+\begin{DoxyCompactList}\small\item\em Constructor por defecto con parámetro. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_v_d_a4f22b92dd8ace25d50311ccd61508dfc}{VD}} (const \mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$ \&original)
+\begin{DoxyCompactList}\small\item\em Constructor de copia. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_v_d_a0533f99aa2fee31fde63edd6c4b8bb2d}{$\sim$\+VD}} ()
+\begin{DoxyCompactList}\small\item\em Destructor\+: elimina la memoria asociada al \mbox{\hyperlink{class_v_d}{VD}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$ \& \mbox{\hyperlink{class_v_d_a645b65a6343059cd921f6a2856c97249}{operator=}} (const \mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$ \&v)
+\begin{DoxyCompactList}\small\item\em Operador de asignación. \end{DoxyCompactList}\item 
+unsigned \mbox{\hyperlink{class_v_d_a72e3d07e6d332f9e19512048d9e38c00}{size}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el número de elementos almacenados en el vector dinámico. \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{class_v_d_a7d80240b5791d62b7e27657763afe712}{operator\mbox{[}$\,$\mbox{]}}} (int i)
+\begin{DoxyCompactList}\small\item\em Consulta y modifica el elemento i-\/esimo. \end{DoxyCompactList}\item 
+const T \& \mbox{\hyperlink{class_v_d_a16ae24a4b545a02baf6733ba5c066346}{operator\mbox{[}$\,$\mbox{]}}} (int i) const
+\item 
+void \mbox{\hyperlink{class_v_d_aded65b5f02cceb9780303afd5c88acb8}{Insertar}} (const T \&d, int pos)
+\begin{DoxyCompactList}\small\item\em Inserta un objeto en la posición pos del \mbox{\hyperlink{class_v_d}{VD}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_v_d_a13528c6fae34510d10699f426de88e27}{Borrar}} (int pos)
+\begin{DoxyCompactList}\small\item\em Elimina el elemento en la posición post. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_v_d_a5e6df2f4f78a27d8ff3af5646c24bb9d}{buscar}} (T \&elemento)
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_v_d_a734c0c269d63f56fbced245e3c36f518}{operator$<$$<$}} (ostream \&os, \mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$ \&v)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class V\+D$<$ T $>$}
+
+T.\+D.\+A Vector dinámico Una instancia {\itshape c} del tipo de datos abstracto {\ttfamily \mbox{\hyperlink{class_v_d}{VD}}} es una estructura lineal de datos del tipo T ( clase plantilla) con las operaciones necesarias para trabajar con ellos. 
+
+Antonio Carlos Perea Parras \begin{DoxyDate}{Date}
+Octubre 2018 
+\end{DoxyDate}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_v_d_a1ce73549d14f68caecaa593de3255c30}\label{class_v_d_a1ce73549d14f68caecaa593de3255c30}} 
+\index{VD@{VD}!VD@{VD}}
+\index{VD@{VD}!VD@{VD}}
+\subsubsection{\texorpdfstring{V\+D()}{VD()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$\+::\mbox{\hyperlink{class_v_d}{VD}} (\begin{DoxyParamCaption}\item[{int}]{tam = {\ttfamily 10} }\end{DoxyParamCaption})}
+
+
+
+Constructor por defecto con parámetro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tam} & elementos a reservar para el vector dinámico \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+si no se proporciona un valor, toma 10 por defecto. 
+\end{DoxyNote}
+\mbox{\Hypertarget{class_v_d_a4f22b92dd8ace25d50311ccd61508dfc}\label{class_v_d_a4f22b92dd8ace25d50311ccd61508dfc}} 
+\index{VD@{VD}!VD@{VD}}
+\index{VD@{VD}!VD@{VD}}
+\subsubsection{\texorpdfstring{V\+D()}{VD()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$\+::\mbox{\hyperlink{class_v_d}{VD}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$ \&}]{original }\end{DoxyParamCaption})}
+
+
+
+Constructor de copia. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em original} & vector dinamico de origen \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_v_d_a0533f99aa2fee31fde63edd6c4b8bb2d}\label{class_v_d_a0533f99aa2fee31fde63edd6c4b8bb2d}} 
+\index{VD@{VD}!````~VD@{$\sim$\+VD}}
+\index{````~VD@{$\sim$\+VD}!VD@{VD}}
+\subsubsection{\texorpdfstring{$\sim$\+V\+D()}{~VD()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$\+::$\sim$\mbox{\hyperlink{class_v_d}{VD}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor\+: elimina la memoria asociada al \mbox{\hyperlink{class_v_d}{VD}}. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_v_d_a13528c6fae34510d10699f426de88e27}\label{class_v_d_a13528c6fae34510d10699f426de88e27}} 
+\index{VD@{VD}!Borrar@{Borrar}}
+\index{Borrar@{Borrar}!VD@{VD}}
+\subsubsection{\texorpdfstring{Borrar()}{Borrar()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$\+::Borrar (\begin{DoxyParamCaption}\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Elimina el elemento en la posición post. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & posición del elemento a borrar. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_v_d_a5e6df2f4f78a27d8ff3af5646c24bb9d}\label{class_v_d_a5e6df2f4f78a27d8ff3af5646c24bb9d}} 
+\index{VD@{VD}!buscar@{buscar}}
+\index{buscar@{buscar}!VD@{VD}}
+\subsubsection{\texorpdfstring{buscar()}{buscar()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool \mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$\+::buscar (\begin{DoxyParamCaption}\item[{T \&}]{elemento }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_v_d_aded65b5f02cceb9780303afd5c88acb8}\label{class_v_d_aded65b5f02cceb9780303afd5c88acb8}} 
+\index{VD@{VD}!Insertar@{Insertar}}
+\index{Insertar@{Insertar}!VD@{VD}}
+\subsubsection{\texorpdfstring{Insertar()}{Insertar()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$\+::Insertar (\begin{DoxyParamCaption}\item[{const T \&}]{d,  }\item[{int}]{pos }\end{DoxyParamCaption})}
+
+
+
+Inserta un objeto en la posición pos del \mbox{\hyperlink{class_v_d}{VD}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em d} & objeto a insertar \\
+\hline
+{\em pos} & posición donde insertar \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+pos debe estar comprendido entre 0 y \mbox{\hyperlink{class_v_d_a72e3d07e6d332f9e19512048d9e38c00}{size()}} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+aumenta en uno el vector dinámico 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_v_d_a645b65a6343059cd921f6a2856c97249}\label{class_v_d_a645b65a6343059cd921f6a2856c97249}} 
+\index{VD@{VD}!operator=@{operator=}}
+\index{operator=@{operator=}!VD@{VD}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$ \& \mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$ \&}]{v }\end{DoxyParamCaption})}
+
+
+
+Operador de asignación. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & vector dinámico fuente \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+una ferencia al objeto al que apunta this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_v_d_a7d80240b5791d62b7e27657763afe712}\label{class_v_d_a7d80240b5791d62b7e27657763afe712}} 
+\index{VD@{VD}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!VD@{VD}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T\& \mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Consulta y modifica el elemento i-\/esimo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & posición del elemento \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+una referencia al elemento i-\/esimo del vector dinamico 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_v_d_a16ae24a4b545a02baf6733ba5c066346}\label{class_v_d_a16ae24a4b545a02baf6733ba5c066346}} 
+\index{VD@{VD}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!VD@{VD}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+const T\& \mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_v_d_a72e3d07e6d332f9e19512048d9e38c00}\label{class_v_d_a72e3d07e6d332f9e19512048d9e38c00}} 
+\index{VD@{VD}!size@{size}}
+\index{size@{size}!VD@{VD}}
+\subsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+unsigned \mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Obtiene el número de elementos almacenados en el vector dinámico. 
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_v_d_a734c0c269d63f56fbced245e3c36f518}\label{class_v_d_a734c0c269d63f56fbced245e3c36f518}} 
+\index{VD@{VD}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!VD@{VD}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{\mbox{\hyperlink{class_v_d}{VD}}$<$ T $>$ \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{_v_d_8hpp}{V\+D.\+hpp}}\item 
+src/\mbox{\hyperlink{_v_d_8cpp}{V\+D.\+cpp}}\end{DoxyCompactItemize}
