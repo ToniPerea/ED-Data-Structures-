@@ -1,0 +1,357 @@
+
+
+*******************************************************************************
+Fri Oct 12 11:27:24 2018
+
+
+FIT:    data read from "tiempos_ordenacion_burbuja.dat"
+        format = z
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2+b*n+c
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Oct 12 11:27:51 2018
+
+
+FIT:    data read from "tiempos_ordenacion_burbuja.dat"
+        format = z
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 9.4779953753e+18   0.00e+00  2.29e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.6352773309e-03  -1.13e-05  2.29e-04    3.252893e-09  -3.934611e-06   3.088046e-03
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.00363528
+rel. change during last iteration : -1.12666e-10
+
+degrees of freedom    (FIT_NDF)                        : 57
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00798604
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.37768e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.25289e-09      +/- 1.538e-11    (0.4728%)
+b               = -3.93461e-06     +/- 4.72e-07     (12%)
+c               = 0.00308805       +/- 0.003033     (98.22%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.968  1.000 
+c               0.738 -0.861  1.000 
+
+
+*******************************************************************************
+Fri Oct 12 12:35:46 2018
+
+
+FIT:    data read from "tiempos_ordenacion_burbuja.dat"
+        format = z
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 9.4779953753e+18   0.00e+00  2.29e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.6352773309e-03  -1.13e-05  2.29e-04    3.252893e-09  -3.934611e-06   3.088046e-03
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.00363528
+rel. change during last iteration : -1.12666e-10
+
+degrees of freedom    (FIT_NDF)                        : 57
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00798604
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.37768e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.25289e-09      +/- 1.538e-11    (0.4728%)
+b               = -3.93461e-06     +/- 4.72e-07     (12%)
+c               = 0.00308805       +/- 0.003033     (98.22%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.968  1.000 
+c               0.738 -0.861  1.000 
+
+
+*******************************************************************************
+Fri Oct 12 12:37:24 2018
+
+
+FIT:    data read from "tiempos_ordenacion_burbuja.dat"
+        format = z
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 9.4779953753e+18   0.00e+00  2.29e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.6352773309e-03  -1.13e-05  2.29e-04    3.252893e-09  -3.934611e-06   3.088046e-03
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.00363528
+rel. change during last iteration : -1.12666e-10
+
+degrees of freedom    (FIT_NDF)                        : 57
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00798604
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.37768e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.25289e-09      +/- 1.538e-11    (0.4728%)
+b               = -3.93461e-06     +/- 4.72e-07     (12%)
+c               = 0.00308805       +/- 0.003033     (98.22%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.968  1.000 
+c               0.738 -0.861  1.000 
+
+
+*******************************************************************************
+Fri Oct 12 12:37:38 2018
+
+
+FIT:    data read from "tiempos_ordenacion_burbuja.dat"
+        format = z
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 9.4779953753e+18   0.00e+00  2.29e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.6352773309e-03  -1.13e-05  2.29e-04    3.252893e-09  -3.934611e-06   3.088046e-03
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.00363528
+rel. change during last iteration : -1.12666e-10
+
+degrees of freedom    (FIT_NDF)                        : 57
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00798604
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.37768e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.25289e-09      +/- 1.538e-11    (0.4728%)
+b               = -3.93461e-06     +/- 4.72e-07     (12%)
+c               = 0.00308805       +/- 0.003033     (98.22%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.968  1.000 
+c               0.738 -0.861  1.000 
+
+
+*******************************************************************************
+Fri Oct 12 12:40:25 2018
+
+
+FIT:    data read from "tiempos_ordenacion_burbuja.dat"
+        format = z
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 9.4779953753e+18   0.00e+00  2.29e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.6352773309e-03  -1.13e-05  2.29e-04    3.252893e-09  -3.934611e-06   3.088046e-03
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.00363528
+rel. change during last iteration : -1.12666e-10
+
+degrees of freedom    (FIT_NDF)                        : 57
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00798604
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.37768e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.25289e-09      +/- 1.538e-11    (0.4728%)
+b               = -3.93461e-06     +/- 4.72e-07     (12%)
+c               = 0.00308805       +/- 0.003033     (98.22%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.968  1.000 
+c               0.738 -0.861  1.000 
+
+
+*******************************************************************************
+Fri Oct 12 12:41:44 2018
+
+
+FIT:    data read from "tiempos_ordenacion_burbuja.dat"
+        format = z
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 9.4779953753e+18   0.00e+00  2.29e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.6352773309e-03  -1.13e-05  2.29e-04    3.252893e-09  -3.934611e-06   3.088046e-03
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.00363528
+rel. change during last iteration : -1.12666e-10
+
+degrees of freedom    (FIT_NDF)                        : 57
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00798604
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.37768e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.25289e-09      +/- 1.538e-11    (0.4728%)
+b               = -3.93461e-06     +/- 4.72e-07     (12%)
+c               = 0.00308805       +/- 0.003033     (98.22%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.968  1.000 
+c               0.738 -0.861  1.000 
+
+
+*******************************************************************************
+Fri Oct 12 12:42:41 2018
+
+
+FIT:    data read from "tiempos_ordenacion_burbuja.dat"
+        format = z
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 9.4779953753e+18   0.00e+00  2.29e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.6352773309e-03  -1.13e-05  2.29e-04    3.252893e-09  -3.934611e-06   3.088046e-03
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.00363528
+rel. change during last iteration : -1.12666e-10
+
+degrees of freedom    (FIT_NDF)                        : 57
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00798604
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.37768e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.25289e-09      +/- 1.538e-11    (0.4728%)
+b               = -3.93461e-06     +/- 4.72e-07     (12%)
+c               = 0.00308805       +/- 0.003033     (98.22%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.968  1.000 
+c               0.738 -0.861  1.000 
+
+
+*******************************************************************************
+Fri Oct 12 12:43:30 2018
+
+
+FIT:    data read from "tiempos_ordenacion_burbuja.dat"
+        format = z
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 9.4779953753e+18   0.00e+00  2.29e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.6352773309e-03  -1.13e-05  2.29e-04    3.252893e-09  -3.934611e-06   3.088046e-03
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.00363528
+rel. change during last iteration : -1.12666e-10
+
+degrees of freedom    (FIT_NDF)                        : 57
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00798604
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.37768e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.25289e-09      +/- 1.538e-11    (0.4728%)
+b               = -3.93461e-06     +/- 4.72e-07     (12%)
+c               = 0.00308805       +/- 0.003033     (98.22%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.968  1.000 
+c               0.738 -0.861  1.000 
+
+
+*******************************************************************************
+Fri Oct 12 12:43:54 2018
+
+
+FIT:    data read from "tiempos_ordenacion_burbuja.dat"
+        format = z
+        #datapoints = 60
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 9.4779953753e+18   0.00e+00  2.29e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 3.6352773309e-03  -1.13e-05  2.29e-04    3.252893e-09  -3.934611e-06   3.088046e-03
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.00363528
+rel. change during last iteration : -1.12666e-10
+
+degrees of freedom    (FIT_NDF)                        : 57
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00798604
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.37768e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.25289e-09      +/- 1.538e-11    (0.4728%)
+b               = -3.93461e-06     +/- 4.72e-07     (12%)
+c               = 0.00308805       +/- 0.003033     (98.22%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.968  1.000 
+c               0.738 -0.861  1.000 
